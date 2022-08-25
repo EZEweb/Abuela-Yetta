@@ -79,7 +79,7 @@ p {
   margin: 0 0 15px;
   line-height: 2.1;
   font-weight: 300;
-  color: #9c9ca9;
+  color: #000;
 }
 p:last-child {
   margin-bottom: 0;
@@ -111,6 +111,15 @@ ul.nosyely_list {
   list-style: none;
 }
 
+.logobody{
+  display: none;
+}
+
+.logobody img{
+  width: 100%;
+  background-color: #000;
+  z-index: 2;
+}
 .section_title {
   position: relative;
   margin-bottom: 25px;
@@ -186,6 +195,9 @@ img {
 }
 
 @media (max-width: 768px) {
+  body{
+    background-color: #000;
+  }
   h1, .h1 {
     font-size: 28px;
     line-height: 40px;
@@ -225,6 +237,12 @@ img {
 
   .hide-md {
     display: none !important;
+  }
+  .logobody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
   }
 }
 /* ----------------Responsive Align ------------------- */
