@@ -193,8 +193,23 @@ strong {
 img {
   max-width: 100%;
 }
+.aboutx{
+  display: none;
+}
 
 @media (max-width: 768px) {
+  .logobody img{
+    width: 30%;
+  }
+  .logobody a{
+    text-align: center;
+  }
+  .aboutx{
+    display: grid;
+  }
+  .img_section{
+    display: none;
+  }
   body{
     background-color: #000;
   }
@@ -1790,6 +1805,7 @@ img {
   padding: 15px;
   min-height: 500px;
   background-color: #ffffff;
+  width:172%;
 }
 .img_card .content_section .content_box .content_box_inner {
   padding: 25px 20px 25px 15px;
