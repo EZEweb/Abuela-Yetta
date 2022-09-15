@@ -197,7 +197,35 @@ img {
   display: none;
 }
 
+/* 
+.img_card .content_section .content_box {
+  width:100%;
+} */
+
+.container-fluid h1{
+  text-align: center;
+  padding: 15% 0 5% 0;
+  font-size: 500%;
+}
+
+.container-fluid h4{
+  font-size: 120%;
+  padding: 0 0 15% 0;
+}
+
+
 @media (max-width: 768px) {
+  .container-fluid h1{
+    text-align: center;
+    padding: 15% 0 5% 0;
+    font-size: 220%;
+  }
+  
+  .container-fluid h4{
+    font-size: 75%;
+    padding: 0 0 15% 0;
+  }
+  
   .logobody img{
     width: 30%;
   }
@@ -1800,7 +1828,6 @@ img {
   margin-right: -75px;
   z-index: 999;
   top: 0;
-  width: auto;
   bottom: 0;
   padding: 15px;
   min-height: 500px;
