@@ -27,8 +27,8 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,500");
 /* ----------------Text Fonts ------------------- */
 body {
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: 16px;
+  line-height: 2.1;
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
   color: #000000;
@@ -197,10 +197,11 @@ img {
   display: none;
 }
 
-/* 
-.img_card .content_section .content_box {
-  width:100%;
-} */
+.aboutx img{
+max-width: 96%;
+margin-top: -12%;
+z-index: 10;
+}
 
 .container-fluid h1{
   text-align: center;
@@ -210,7 +211,19 @@ img {
 
 .container-fluid h4{
   font-size: 120%;
-  padding: 0 0 15% 0;
+}
+.img_card .content_section .content_box {
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-right: -75px;
+  z-index: 999;
+  top: 0;
+  bottom: 0;
+  padding: 15px;
+  min-height: 500px;
+  background-color: #ffffff;
+  width: 130%;
 }
 
 
@@ -287,6 +300,7 @@ img {
     align-items: center;
     height: 30%;
   }
+
 }
 /* ----------------Responsive Align ------------------- */
 @media all and (max-width: 767px) {
@@ -302,6 +316,7 @@ img {
     text-align: right;
   }
 }
+
 .loader {
   position: fixed;
   top: 0;
@@ -1804,13 +1819,16 @@ img {
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
   }
+  .img_card .content_section .content_box {
+    width: 165%;
+  }
 }
 /*  ----------------------------------------------------
 3 body
 -------------------------------------------------------- */
 .body_block {
   background-color: #959fd8;
-  padding: 50px 30px;
+  padding: 50px 0 10px 30px;
 }
 
 .img_card {
@@ -1821,19 +1839,7 @@ img {
   position: relative;
   padding: 50px 0;
 }
-.img_card .content_section .content_box {
-  position: relative;
-  left: 0;
-  right: 0;
-  margin-right: -75px;
-  z-index: 999;
-  top: 0;
-  bottom: 0;
-  padding: 15px;
-  min-height: 500px;
-  background-color: #ffffff;
-  width:172%;
-}
+
 .img_card .content_section .content_box .content_box_inner {
   padding: 25px 20px 25px 15px;
 }
@@ -1841,6 +1847,7 @@ img {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  margin-left: -3%;
 }
 
 /*  ----------------------------------------------------
