@@ -65,12 +65,15 @@ figure{
 }
 
 figure:hover{
-  background-color: #6c1d80;
+  background-color: #6c1d80bb;
   color: white;
   padding: 5%;
   transition: 1s;
 }
 
+figure h4{
+  font-weight: bolder;
+}
 figure a{
   display: grid;
   text-align: left;
