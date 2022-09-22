@@ -52,16 +52,21 @@ header > h1 {
 
 .galeria {
   display: grid;
-  margin: 3em 1em 0 0;
+  margin: 0 1em 0 0;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   grid-template-rows: 1fr;
   grid-gap: 1em;
   grid-auto-flow: dense;
 }
 
-figure {
-  display: flex;
+figure{
+  display: grid;
   margin: 0;
+}
+
+figure a{
+  display: grid;
+  text-align: left;
 }
 
 img {
