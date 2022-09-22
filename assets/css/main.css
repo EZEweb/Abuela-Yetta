@@ -39,7 +39,7 @@ body {
 .contenedor {
   max-width: 100%;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 0;
   text-align: center;
 }
 
@@ -62,6 +62,13 @@ header > h1 {
 figure{
   display: grid;
   margin: 0;
+}
+
+figure:hover{
+  background-color: #6c1d80;
+  color: white;
+  padding: 5%;
+  transition: 1s;
 }
 
 figure a{
