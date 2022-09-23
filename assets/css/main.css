@@ -285,7 +285,7 @@ z-index: 10;
   
   .container-fluid h4{
     font-size: 75%;
-    padding: 0 0 15% 0;
+    padding: 0;
   }
   
   .logobody img{
@@ -1844,7 +1844,7 @@ z-index: 10;
     display: block;
   }
   .contenedor {
-    padding: 0;
+    padding: 10% 0 0 0;
   }
 
   .menu_block {
