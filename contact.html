@@ -102,7 +102,6 @@
             <!--social and copyright end -->
         </div>
         <!--=================== side menu end====================-->
-
         <!--=================== content body ====================-->
         <div class="logobody">
             <a href="index.html">
@@ -115,6 +114,7 @@
                     <div class="row justify-content-center">
                         <div class="col-md-6 col-7 content_section">
                             <!--=================== contact info and form start====================-->
+                            <form action="form.php" method="POST">
                             <div class="content_box">
                                 <div class="content_box_inner">
                                     <div>
@@ -149,16 +149,16 @@
                                         </ul>
                                         <div class="mt75 row justify-content-center">
                                             <div class="col-lg-6 col-12">
-                                                <input type="text" placeholder="Nombre" class="form-control">
+                                                <input type="text" name="nombre" placeholder="Nombre" class="form-control">
                                             </div>
                                             <div class="col-lg-6 col-12">
-                                                <input type="email" placeholder="E-Mail" class="form-control">
+                                                <input type="text" name="mail" placeholder="E-Mail" class="form-control">
                                             </div>
                                             <div class="col-12">
-                                                <input type="text" placeholder="Asunto" class="form-control">
+                                                <input type="text" name="asunto" placeholder="Asunto" class="form-control">
                                             </div>
                                             <div class="col-12">
-                                                <textarea  placeholder="Mensaje" class="form-control" cols="4" rows="4"></textarea>
+                                                <textarea type="text" name="mensaje" placeholder="Mensaje" class="form-control" cols="4" rows="4"></textarea>
                                             </div>
                                             <div class="col-12">
                                                 <button type="submit" class="btn btn-primary">Enviar</button>
@@ -167,6 +167,7 @@
                                     </div>
                                 </div>
                             </div>
+                            </form>
                             <!--=================== contact info and form end====================-->
                         </div>
                         <div class="col-md-6 col-5 img_section" style="background-color:#000;">
@@ -181,9 +182,6 @@
         <!--=================== content body end ====================-->
     </div>
 </div>
-
-
-
 <!-- jquery -->
 <script src="assets/js/jquery.min.js"></script>
 <!-- bootstrap -->
