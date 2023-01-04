@@ -35,7 +35,14 @@ body {
   font-style: normal;
   overflow-x: hidden;
 }
-
+button{
+  border: solid 2px #60678f;
+  background-color: #d1d5eb;
+  color: black;
+}
+button a:hover{
+  color: rgb(6, 24, 124);
+}
 .contenedor {
   max-width: 100%;
   margin: 0 auto;
